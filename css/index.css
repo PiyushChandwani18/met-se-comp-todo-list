@@ -1,0 +1,130 @@
+.fullpage{
+    width: 100%;
+    height: 100vh;
+    background-color:wheat
+    ;
+    
+}
+
+.image{
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    border-radius: 30px;
+
+    
+}
+.content{
+    align-items: center;
+    margin-top: -150px;
+}
+.main{
+    width: 50%;
+    height: 360px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    padding-left: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 8px 4px gray;
+    position: fixed;
+    margin-left: 55vh;
+    margin-top: 0;
+    background-color:white;
+    overflow: auto;
+
+}
+#addtodo{
+    background-color:  #367BF5;
+    border-radius: 20px;
+    color: white;
+    margin-left: -10px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    
+}
+#todo{
+    color: white;
+    display: flex;
+    margin-left: 400px;
+    font-size: 3rem;
+    
+    
+    
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -60px;
+    
+   
+   
+    
+}
+.alltodos{
+    border-bottom: 1px solid gray;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+h2{
+    margin-bottom: -10px;
+}
+.del{
+    background-color:#EA3D2F;
+
+    margin-right: 20px;
+    
+    
+    
+}
+
+.popup{
+    position: fixed;
+    width: 580px;
+    height: 320px;
+    background-color:bisque;
+    border-radius: 30px;
+    margin-left: 15px;
+    margin-top: 10px;
+    z-index: 10;    
+    padding-left: 20px;
+    border: 4px solid rgba(0, 0, 0, 0.103);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 24px;
+    
+}
+.popup>div>input{
+    border: 2px solid violet;
+    border-radius: 10px;
+}
+.popup>div>textarea{
+    border: 2px solid violet;
+    border-radius: 10px;
+}
+.popup>div>button{
+    background-color: #367BF5;
+    color: white;
+    border: 0px;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.dnone{
+    display: none;
+}
+#todocancel{
+    background-color: #EA3D2F;
+    color: white;
+    border: 0px;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 10px;
+}

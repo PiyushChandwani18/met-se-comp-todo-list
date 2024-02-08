@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+    <section class="fullpage">
+        
+        
+        <img class="image" src="./images/background.jpg" alt="">
+        <section class="content">
+            <section class="header">
+                <button id="addtodo">Add Todo</button>
+                <h1 id="todo">TODO</h1>
+            
+            </section>
+            
+            <section class="main">
+                <section class="popup dnone">
+                    <div><label for="">Todo name</label></div>
+                    <div><input id="todoname" type="text"></div>
+                    <div><label for="">Description</label></div>
+                    <div><textarea name="" id="tododescription" cols="30" rows="5"></textarea></div>
+                    <div><label for="">priority</label>
+                        <select name="" id="todopriority">
+                        <option value="high">high</option>
+                        <option value="med">med</option>
+                        <option value="low">low</option>
+                    </select></div>
+                    <div><button id="todosave">save</button>
+                    <button id="todocancel">cancel</button></div>
+                    
+                </section>
+                <section class="alltodos">
+                    <section>
+                    <h2>Complete HTML Learning</h2>
+                    <p>learn all HTML semantic tags,learn new article tag</p>
+                    </section>
+                    <section >
+                    <button class="del"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                    </section>
+                </section>
+                <section class="alltodos">
+                        <section>
+                        <h2>Learn Map() method</h2>
+                        <p>learn how to implement map in javascript</p>
+                        </section>
+                        <section >
+                        <button class="del"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                        </section>
+                    
+                </section>
+
+                <section class="alltodos">
+                
+                        <section>
+                            <h2>Take Notes</h2>
+                            <p>Take notes regarding css fundamental</p>
+                        </section>
+                        <section>
+                            <button class="del"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                        </section>
+                    
+                </section>
+                    
+                
+                <section class="alltodos">
+                    <section>
+                        <h2>Water Plants</h2>
+                        <p>Water all plants in garden</p>
+                    </section>
+                    <section>
+                        <button class="del"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                    </section>
+
+                    
+                </section>
+                
+                <span id="my-todos">
+
+                </span>
+
+            </section>
+        </section>
+        
+        
+        
+        
+
+    </section>
+   
+    <script src="./Js/index.js"></script>
+</body>
+</html>
